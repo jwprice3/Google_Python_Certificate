@@ -60,3 +60,5 @@ Refactor code - Update code so that it is self-documenting and the intent of the
 Add comments - Adding comments is part of creating self-documenting code. Using comments allows you to leave notes to yourself and/or other programmers to make the purpose of the code clear.
 
 Comparison with Strings - operators greater than > and less than < can be used to alphabetize words in Python. The letters of the alphabet have numeric codes in Unicode (also known as ASCII values). The uppercase letters A to Z are represented by the Unicode values 65 to 90. The lowercase letters a to z are represented by the Unicode values 97 to 122
+
+elif - An elif statement must follow an if statement, and will only be evaluated if the if statement was evaluated as false.
