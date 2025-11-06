@@ -78,3 +78,6 @@ break - A break statement in Python provides a way to exit out of a loop before 
 pass - A pass statement in Python is a placeholder statement which is used when the syntax requires a statement, but you don't want to execute any code or command.
 
 range()- generates a sequence of integer numbers, which can be used with a for loop to control the start point, the end point, and the incremental values of the loop. The range() function can take up to three parameters:  range(start, stop, step) 
+
+slice - a string, you extract a subset of the original string—sometimes referred to as indexing a string. 
+concatenate - strings is the process of linking two or more strings together to create a bigger string.
