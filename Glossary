@@ -71,6 +71,10 @@ while loop - Tells the computer to execute a set of instructions while a specifi
 
 infinite loop - Missing a method for exiting the loop, causing the loop to run forever.
 
+For loops - when there's a sequence of elements that you want to iterate.
+
 break - A break statement in Python provides a way to exit out of a loop before the loop's condition is false. Once a break statement is encountered, the program's control flow jumps out of the loop and continues executing the code after the loop.
 
 pass - A pass statement in Python is a placeholder statement which is used when the syntax requires a statement, but you don't want to execute any code or command.
+
+range()- generates a sequence of integer numbers, which can be used with a for loop to control the start point, the end point, and the incremental values of the loop. The range() function can take up to three parameters:  range(start, stop, step) 
