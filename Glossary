@@ -82,3 +82,5 @@ range()- generates a sequence of integer numbers, which can be used with a for l
 slice - a string, you extract a subset of the original string—sometimes referred to as indexing a string. 
 
 concatenate - strings is the process of linking two or more strings together to create a bigger string.
+
+recursion - is a way of doing a repetitive task by having a function call itself. A recursive function calls itself usually with a modified parameter until it reaches a specific condition. 
