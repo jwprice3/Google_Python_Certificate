@@ -136,4 +136,47 @@ Complete the for loop so that a function call like “all_numbers(3,6)” will r
 # print(all_numbers(0,5))  # Should be 0 1 2 3 4 5
 # print(all_numbers(0,0))  # Should be 0
 
-print('Hello')
+'''
+Question 8
+What is the first number that will be printed in the first iteration of this loop?
+Your answer should be only one number.  
+'''
+# for count in range(1, 6):
+#     print(count+1)
+'''
+What number is printed at the end of this code?
+'''
+# num1 = 0
+# num2 = 0
+
+# for x in range(5):
+#     num1 = x
+#     for y in range(14):
+#         num2 = y + 3
+# print(num1)
+# print(num2)
+# print(num1 + num2)
+
+def count_numbers (first, last):
+  # Loop through the numbers from first to last 
+  x = first
+  while x <= last:
+    print(x)
+    x += 1
+    
+
+
+count_numbers(2, 6) 
+# Should print:
+# 2
+# 3
+# 4 
+# 5
+# 6
+# A: The variable is not incrmented
+
+'''
+What happens when the Python interpreter executes a loop where a variable used
+inside the loop is not initialized?
+'''
+# A:  a NameError, indicating the variable is not defined.
